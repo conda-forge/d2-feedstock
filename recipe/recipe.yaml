@@ -1,6 +1,6 @@
 context:
   name: d2
-  version: "0.7.0"
+  version: "0.7.1"
 
 package:
   name: ${{ name|lower }}
@@ -9,7 +9,7 @@ package:
 source:
   - target_directory: src
     url: https://github.com/terrastruct/d2/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 6e7e7c787755e61fc048cc0c2e939a330a3dad98ee0f3c1cd706f2c192416554
+    sha256: b784d6472d53fdaaa7ecc9bdbe23456e2b4a90e18736828028b3f951537e56a1
   - url: https://raw.githubusercontent.com/golang/freetype/refs/heads/master/LICENSE
     sha256: d3ba056adc2b7909e95681deaae397fb37c97ed491a920f491214f07b62c41d0
     file_name: freetype-licence.txt
