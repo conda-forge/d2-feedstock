@@ -42,7 +42,7 @@ about:
   license: MPL-2.0 AND (GPL-2.0-or-later OR LicenseRef-FreeType)
   license_file:
     - src/LICENSE.txt
-    - library_licenses
+    - library_licenses/
     - freetype-license.txt
     - freetype-license-ftl.txt
     - freetype-license-gpl.txt
